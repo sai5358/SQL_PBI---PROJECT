@@ -27,3 +27,5 @@
 
 **Conclusion:**
 This project showcases the process of analyzing sales data using SQL for data cleaning and Power BI for visualization. By leveraging these tools, businesses can gain valuable insights to drive informed decision-making and optimize performance.
+
+

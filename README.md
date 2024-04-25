@@ -18,6 +18,10 @@
 - Identify relevant tables based on Business Request.
 - Prepare and transform columns using T-SQL concepts: renaming, combining, commenting, formatting, filtering, joining, and conditional functions.
 
+**Model View**
+![image](https://github.com/sai5358/SQL_PBI---PROJECT/assets/158285191/7e9b7afc-4881-4224-a4ba-ec861d02f43b)
+
+
 **Create Dashboard in Power BI:**
 - Load and organize data.
 - Connect tables for Data Model.

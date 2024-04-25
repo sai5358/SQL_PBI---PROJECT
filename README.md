@@ -1,37 +1,29 @@
-# SalesAnalysis_SQL_PowerBI
+# SQL_PBI - PROJECT
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+### Project Title: Sales Analysis with SQL and Power BI
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+**Setup:**
+- Requires SQL Server (SQL Express) and Power BI Desktop.
+- Utilizes backup Data Warehouse (DW) data and Lightweight (LT) data.
+- Data restoration instructions provided.
+- Focus on Data Warehouse data for analysis.
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+**Business Request & User Stories:**
+- Analyze sample business request and demand overview.
+- Understand user stories to address the problem with Data Analysis.
+- Gain insights into the proposed solution.
 
-### Create Dashboard in Power BI
-- Load Data
-- Organize & Prepare Tables
-- Connect Tables for Data Model
-- Import Fact_Budget
-- Calculation Measures
-- Dashboard Design
-- Import Custom Visual
-- Measure Table
-- Pie Chart
-- Line Chart
-- Bar Charts
-- Map Graph
-- Top 10 Graphs
-- Gradient Bar Chart Color
-- Customer Details
-- Pivot Table
+**Clean the Data using T-SQL:**
+- Differentiate between FACT tables & Dimension tables.
+- Identify relevant tables based on Business Request.
+- Prepare and transform columns using T-SQL concepts: renaming, combining, commenting, formatting, filtering, joining, and conditional functions.
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
+**Create Dashboard in Power BI:**
+- Load and organize data.
+- Connect tables for Data Model.
+- Import Fact_Budget and calculate measures.
+- Design Dashboard layout.
+- Include custom visuals and various chart types: Pie, Line, Bar, Map, Top 10, Gradient Bar, Customer Details, and Pivot Table.
+
+**Conclusion:**
+This project showcases the process of analyzing sales data using SQL for data cleaning and Power BI for visualization. By leveraging these tools, businesses can gain valuable insights to drive informed decision-making and optimize performance.
